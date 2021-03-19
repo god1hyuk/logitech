@@ -1,0 +1,19 @@
+@media (max-width: 375px) {
+    #nav-content>ul {
+        background: #fff;;
+    }
+    .nav-item {
+        margin: 0 auto;
+    }
+    .nav-link {
+        /* text-align: start; */
+        line-height: 2;
+    }
+    .banner_video {
+        padding-top : 90px;
+    }
+    .banner_video video {
+        width: 200%;
+        transform: translateX(-25%);
+    }
+}
