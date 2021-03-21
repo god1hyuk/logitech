@@ -30,7 +30,6 @@ nav {
     width: 130px;
     height: 39px;
     background-image: url(../images/logo_wihite_animation.png);
-    /* background-image: url(../images/logo_black_animation.png); */
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom center;
@@ -85,12 +84,12 @@ nav {
 /* toggle button */
 
 .nav-item {
-    width: 150px;
+    width: 180px;
 }
 .nav-link {
     display: block;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     text-align: center;
 }
@@ -487,28 +486,32 @@ footer > .row {
     display: flex;
     align-items: flex-end;
 }
-.siteLink_footer>.nav-item {
+.siteLink_footer>li {
     width: 180px;
 }
-.siteLink_footer .nav-link {
+.siteLink_footer a {
     display: block;
     padding: 0;
     text-align: start;
+    color: #fff;
     font-size: 1rem;
 }
-.siteLink_footer .nav-link:hover {
+.siteLink_footer a:hover {
+    text-decoration: none;
     color: #00b8fc;
+    transition: all 0.2s ease;
 }
 
 .snsLink_footer {
     display: flex;
-    align-items: flex-end;
-    margin-left: 55%;
+    justify-content: space-between;
+    width: 10%;
+    margin-top: -20px;
+    margin-left: 90%;
 }
-.snsLink_footer .nav-item {
-    width: 30px;
-    height: 30px;
-    margin: 0 15%; 
+.snsLink_footer li {
+    width: 25px;
+    height: 25px;
 }
 .snsLink_footer>li:nth-child(1)>a {
     display: block;
@@ -516,7 +519,7 @@ footer > .row {
     height: 100%;
     background-image: url(../images/facebook_link.png);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
     background-position: center;
 }
 .snsLink_footer>li:nth-child(1)>a:hover {
@@ -529,7 +532,7 @@ footer > .row {
     height: 100%;
     background-image: url(../images/twitter_link.png);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
     background-position: center;
 }
 .snsLink_footer>li:nth-child(2)>a:hover {
@@ -542,7 +545,7 @@ footer > .row {
     height: 100%;
     background-image: url(../images/instagram_link.png);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
     background-position: center;
 }
 .snsLink_footer>li:nth-child(3)>a:hover {
