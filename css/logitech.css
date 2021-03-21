@@ -9,8 +9,7 @@
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
-    overflow-x: hidden;
-    -webkit-overflow-x: hidden;
+    overflow-x: hidden !important;
     background: #181818;
 }
 
