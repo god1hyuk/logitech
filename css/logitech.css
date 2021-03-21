@@ -10,6 +10,7 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;
     overflow-x: hidden;
+    -webkit-overflow-x: hidden;
     background: #181818;
 }
 
@@ -437,9 +438,7 @@ nav {
     color: #181818;
     transition: all 0.3s ease;
 }
-/* .pg3 {
-    --swiper-pagination-color: #00b8fc;
-} */
+
 
 
 /* footer */
