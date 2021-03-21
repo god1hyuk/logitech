@@ -1,21 +1,21 @@
-$logo = $('#hero-logo-container');
-$logoMobile = $('.mobile-logo');
-$logo.html('<div id="hero-logo-ani" class="hero-logo-ani animating stoppedAnimation"></div>');
-$logoMobile.html('<img class="mobile-dark-logo" src="/content/dam/logitech/common/en/logi-logo-dark.png" alt="logo"><img class="mobile-light-logo" src="/content/dam/logitech/common/en/logi-logo-white.png" alt="logo">');
-$logiAni = $("#hero-logo-ani");
+// $logo = $('#hero-logo-container');
+// $logoMobile = $('.mobile-logo');
+// $logo.html('<div id="hero-logo-ani" class="hero-logo-ani animating stoppedAnimation"></div>');
+// $logoMobile.html('<img class="mobile-dark-logo" src="/content/dam/logitech/common/en/logi-logo-dark.png" alt="logo"><img class="mobile-light-logo" src="/content/dam/logitech/common/en/logi-logo-white.png" alt="logo">');
+// $logiAni = $("#hero-logo-ani");
 
-$logo.css('visibility', 'visible');
+// $logo.css('visibility', 'visible');
 
-$logo.hover(function() {
-        $logiAni
-        .removeClass("stoppedAnimation")
-        .addClass("hoverPlay");
-    },
-    function() {
-        $logiAni
-            .removeClass("hoverPlay")
-            .addClass("stoppedAnimation");
-});
+// $logo.hover(function() {
+//         $logiAni
+//         .removeClass("stoppedAnimation")
+//         .addClass("hoverPlay");
+//     },
+//     function() {
+//         $logiAni
+//             .removeClass("hoverPlay")
+//             .addClass("stoppedAnimation");
+// });
 
 
 $(document).ready(function(){
@@ -24,23 +24,46 @@ $(document).ready(function(){
     });
   });
 
+// slider1
+const swiper1 = new Swiper('.swiper1', {
+    speed: 800,
+    effect: 'fade',
+    loop: true,
+    navigation: {
+    nextEl: '.n1',
+    prevEl: '.p1',
+    },
+    pagination: {
+      el: '.pg1',
+      clickable: true,
+    },
+});
 
-// Banner slide
+// slider2
+const swiper2 = new Swiper('.swiper2', {
+  speed: 800,
+  effect: 'fade',
+  loop: true,
+  navigation: {
+    nextEl: '.n2',
+    prevEl: '.p2',
+  },
+  pagination: {
+    el: '.pg2',
+    clickable: true,
+  },
+});
 
-// var swiper = new Swiper('.swiper-container', {
-//     speed: 700,
-//     spaceBetween: 30,
-//     effect: 'fade',
-//     loop: 'true',
-//     autoplay: {
-//         delay: 12000,
-//     },
-//     // pagination: {
-//     //   el: '.swiper-pagination',
-//     //   clickable: true,
-//     // },
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-// });
+// slider3
+const swiper3 = new Swiper('.swiper3', {
+  direction: 'horizontal',
+  loop: true,
+  navigation: {
+    nextEl: '.n3',
+    prevEl: '.p3',
+  },
+  pagination: {
+    el: '.pg3',
+    clickable: true,
+  },
+});
