@@ -9,18 +9,17 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;
     background: #181818;
-    overflow-x: hidden !important;
+    color: #fff;
+    /* overflow-x: hidden !important; */
 }
 
 header {
     width: 100%;
+    padding: 5px 0;
     background: #181818;
     position: fixed !important;
     top: 0;
     z-index: 999;
-}
-nav {
-    padding: 10px 0;
 }
 
 .logo_wrap {
@@ -88,10 +87,8 @@ nav {
 }
 .nav-link {
     display: block;
-    color: #fff;
     font-size: 1rem;
     font-weight: 600;
-    text-align: center;
 }
 .nav-link:hover {
     color: #00b8fc;
@@ -118,13 +115,12 @@ nav {
 .banner_txt > h1 {
     font-size: 2.5rem;
     line-height: 1.2;
-    text-align: center;
+    color: #181818;
 }
 .banner_txt > p {
     font-size: 1.8rem;
     font-weight: 900;
     line-height: 2;
-    text-align: center;
     color: #3d3d3d;
 }
 
@@ -132,60 +128,53 @@ nav {
 
 /* section2 contents */
 
-.sec2_txt {
-    margin: 200px 0;
-    color: #fff;
-    text-align: center;
+.section2 {
+    padding: 300px 0;
 }
-.sec2_txt>h1 {
-    font-size: 2.5rem;
+.sec2_txt > h1 {
+    font-size: 3rem;
 }
 .sec2_txt > p {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 1.3rem;
+    line-height: 1.8;
     margin-top: 20px;
 }
+
 
 /* section3 */
 
 .swiper1 {
     height: 800px;
-    overflow-y: hidden;
 }
+
 .sec3_bg1 {
-    width: 100%;
     padding: 300px 0;
     background-image: url(../images/mx-for-coder.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #fff;
 }
 
 .sec3_bg1_txt > h1 {
     font-size: 3rem;
     font-weight: 900;
-    text-align: center;
 }
 .sec3_bg1_txt > p {
     margin-top: 30px;
     font-size: 1.2rem;
-    text-align: center;
     line-height: 2;
 }
 
 .sec3_bg2 {
-    width: 100%;
     padding: 230px 0;
     background-image: url(../images/mx-for-coder-moniter.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #fff;
 }
-.sec3_bg2_txt1 {
-    margin-top: -120px;
-}
+
+
+
 .sec3_bg2_txt1>p:first-child {
     font-size: 2rem;
     font-weight: 900;
@@ -194,10 +183,6 @@ nav {
     margin: 20px;
     font-size: 1.1rem;
     line-height: 1.5;
-}
-
-.sec3_bg2_txt2 {
-    margin-top: 180px;
 }
 .sec3_bg2_txt2>p:first-child {
     font-size: 2rem;
@@ -213,17 +198,15 @@ nav {
 
 /* section4 */
 
-.sec4_txt {
-    margin: 200px 0;
-    color: #fff;
-    text-align: center;
+.section4 {
+    padding: 300px 0;
 }
-.sec4_txt > h1 {
-    font-size: 2.5rem;
+.sec4_txt>h1 {
+    font-size: 3rem;
 }
-.sec4_txt> p {
-    font-size: 1.2rem;
-    line-height: 1.5;
+.sec4_txt > p {
+    font-size: 1.3rem;
+    line-height: 1.8;
     margin-top: 20px;
 }
 
@@ -235,88 +218,66 @@ nav {
 }
 
 .sec5_bg1 {
-    width: 100%;
-    padding: 400px 0;
+    padding: 300px 0;
     background-image: url(../images/mx-for-creativity1-dark.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #fff;
-}
-.sec5_bg1_txt {
-    margin-top: -100px;
-    z-index: 999 !important;
 }
 .sec5_bg1_txt > h1 {
     font-size: 3rem;
     font-weight: 900;
-    text-align: center;
 }
 .sec5_bg1_txt > p {
     margin-top: 30px;
     font-size: 1.2rem;
-    text-align: center;
     line-height: 2;
 }
 
 .sec5_bg2 {
-    width: 100%;
-    padding: 350px 0;
+    padding: 335px 0;
     background-image: url(../images/mouse_keyboard_ondesk-dark.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.sec5_bg2_txt {
-    color: #fff;
-}
-.sec5_bg2_txt>.col-5>p {
+.sec5_bg2_txt1 > h1 {
     font-size: 2rem;
     font-weight: 900;
     line-height: 1.5;
 }
-.sec5_bg2_txt>.col-7>p {
-    margin: 20px;
+.sec5_bg2_txt2 > p {
     font-size: 1.1rem;
     line-height: 1.5;
 }
 
 /* section6 */
 
-.sec6_txt {
-    margin: 200px 0;
-    color: #fff;
-    text-align: center;
+.section6 {
+    padding: 300px 0;
 }
-.sec6_txt > h1 {
-    font-size: 2.5rem;
+.sec6_txt>h1 {
+    font-size: 3rem;
 }
-.sec6_txt> p {
-    font-size: 1.2rem;
-    line-height: 1.5;
+.sec6_txt > p {
+    font-size: 1.3rem;
+    line-height: 1.8;
     margin-top: 20px;
 }
 
 /* section7 */
-
-.section7 {
-    margin-top: 100px;
-}
-
-.sec7_img>img {
+.sec7_img > img {
     display: block;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
-
 .sec7_txt {
     margin-top: 100px;
-    padding-left: 80px;
-    color: #fff;
 }
 .sec7_txt > h1 {
     font-size: 2rem;
 }
-.sec7_txt> p {
+.sec7_txt > p {
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 30px;
@@ -327,16 +288,13 @@ nav {
 .section8 {
     margin: 200px 0;
 }
-
 .sec8_img>img {
     display: block;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
-
 .sec8_txt {
     margin-top: 100px;
-    padding-left: 80px;
-    color: #fff;
 }
 .sec8_txt > h1 {
     font-size: 2rem;
@@ -355,13 +313,11 @@ nav {
 
 .sec9_img>img {
     display: block;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
-
 .sec9_txt {
     margin-top: 30px;
-    padding-left: 80px;
-    color: #fff;
 }
 .sec9_txt > h1 {
     font-size: 2rem;
@@ -369,7 +325,7 @@ nav {
 .sec9_txt> p {
     font-size: 1rem;
     line-height: 1.5;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /* section10 */
@@ -377,16 +333,13 @@ nav {
 .section10 {
     margin: 200px 0;
 }
-
 .sec10_img>img {
     display: block;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
-
 .sec10_txt {
     margin-top: 30px;
-    padding-left: 80px;
-    color: #fff;
 }
 .sec10_txt > h1 {
     font-size: 2rem;
@@ -394,13 +347,14 @@ nav {
 .sec10_txt> p {
     font-size: 1rem;
     line-height: 1.5;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /* section11 */
 
 .section11 {
     background: #fff;
+    color: #181818;
     margin-top: 300px;
 }
 .article_txt {
@@ -409,34 +363,30 @@ nav {
 .article_txt > p {
     font-size: 1.8rem;
     line-height: 1.2;
-    text-align: center;
 }
 .article_logo {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .article_logo > img {
     display: block;
-    width: 15%;
+    width: 12%;
     margin: 0 auto;
 }
 .article_link {
     display: block;
     width: 10%;
     margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 80px;
-    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
     font-size: 1.3rem;
-    font-weight: 900;
     color: #8e8e8e;
 }
 .article_link:hover {
     text-decoration: none;
     color: #181818;
+    font-weight: 900;
     transition: all 0.3s ease;
 }
-
-
 
 /* footer */
 
