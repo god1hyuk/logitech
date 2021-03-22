@@ -1,5 +1,41 @@
-@media (max-width: 1336px) {
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
     .sec3_bg2 > .row {
-        margin: 0 auto;
+        flex-direction: column;
+    }
+    .section7 .row {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .sec7_img, .sec7_txt {
+        width: 100%;
+    }
+    .section8 .row {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100vw;
+    }
+    .sec8_img, .sec8_txt {
+        width: 100%;
+    }
+    .section9 .row {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .sec9_img, .sec9_txt {
+        width: 100%;
+    }
+    .section10 .row {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100vw;
+    }
+    .sec10_img, .sec10_txt {
+        width: 100%;
     }
 }
