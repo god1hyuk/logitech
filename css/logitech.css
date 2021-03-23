@@ -1,10 +1,16 @@
-@import url("reset.css");
-
-/* reset css */
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 /* font family */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
@@ -86,8 +92,9 @@ header {
 }
 .nav-link {
     display: block;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 600;
+    color: #fff;
 }
 .nav-link:hover {
     color: #00b8fc;
@@ -119,7 +126,6 @@ header {
 .banner_txt > p {
     font-size: 1.8rem;
     font-weight: 900;
-    line-height: 2;
     color: #3d3d3d;
 }
 
@@ -134,9 +140,11 @@ header {
     font-size: 3rem;
 }
 .sec2_txt > p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
     font-size: 1.3rem;
     line-height: 1.8;
-    margin-top: 20px;
 }
 
 
@@ -159,34 +167,43 @@ header {
     font-weight: 900;
 }
 .sec3_bg1_txt > p {
+    width: 50%;
+    margin: 0 auto;
     margin-top: 30px;
     font-size: 1.2rem;
     line-height: 2;
 }
 
 .sec3_bg2 {
-    padding: 230px 0;
+    padding: 320px 0;
     background-image: url(../images/mx-for-coder-moniter.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .sec3_bg2_txt1>p:first-child {
+    width: 40%;
+    margin: 0 auto;
     font-size: 2rem;
     font-weight: 900;
 }
 .sec3_bg2_txt1 > p {
-    margin: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
     font-size: 1.1rem;
     line-height: 1.5;
 }
 .sec3_bg2_txt2>p:first-child {
+    width: 50%;
+    margin: 0 auto;
     font-size: 2rem;
     font-weight: 900;
-
 }
 .sec3_bg2_txt2 > p {
-    margin: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
     font-size: 1.1rem;
     line-height: 1.5;
 }
@@ -201,9 +218,11 @@ header {
     font-size: 3rem;
 }
 .sec4_txt > p {
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 20px;
     font-size: 1.3rem;
     line-height: 1.8;
-    margin-top: 20px;
 }
 
 /* section5 */
@@ -214,7 +233,7 @@ header {
 }
 
 .sec5_bg1 {
-    padding: 300px 0;
+    padding: 340px 0;
     background-image: url(../images/mx-for-creativity1-dark.png);
     background-size: cover;
     background-position: center;
@@ -225,24 +244,30 @@ header {
     font-weight: 900;
 }
 .sec5_bg1_txt > p {
+    width: 50%;
+    margin: 0 auto;
     margin-top: 30px;
     font-size: 1.2rem;
     line-height: 2;
 }
 
 .sec5_bg2 {
-    padding: 335px 0;
+    padding: 350px 0;
     background-image: url(../images/mouse_keyboard_ondesk-dark.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .sec5_bg2_txt1 > h1 {
+    width: 50%;
+    margin-left: 40%;
     font-size: 2rem;
     font-weight: 900;
     line-height: 1.5;
 }
 .sec5_bg2_txt2 > p {
+    width: 60%;
+    margin-left: 10%;
     font-size: 1.1rem;
     line-height: 1.5;
 }
@@ -256,9 +281,11 @@ header {
     font-size: 3rem;
 }
 .sec6_txt > p {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 20px;
     font-size: 1.3rem;
     line-height: 1.8;
-    margin-top: 20px;
 }
 
 /* section7 */
@@ -272,9 +299,10 @@ header {
     margin-top: 120px;
 }
 .sec7_txt > h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .sec7_txt > p {
+    width: 55%;
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 30px;
@@ -294,9 +322,10 @@ header {
     margin-top: 100px;
 }
 .sec8_txt > h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .sec8_txt> p {
+    width: 75%;
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 30px;
@@ -307,7 +336,6 @@ header {
 .section9 {
     margin: 200px 0;
 }
-
 .sec9_img>img {
     display: block;
     width: 70%;
@@ -317,9 +345,10 @@ header {
     margin-top: 60px;
 }
 .sec9_txt > h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .sec9_txt> p {
+    width: 67%;
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 20px;
@@ -339,9 +368,10 @@ header {
     margin-top: 40px;
 }
 .sec10_txt > h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .sec10_txt> p {
+    width: 90%;
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 20px;
@@ -358,6 +388,8 @@ header {
     padding-top: 80px;
 }
 .article_txt > p {
+    width: 50%;
+    margin: 0 auto;
     font-size: 1.8rem;
     line-height: 1.2;
 }
@@ -393,8 +425,7 @@ footer > .row {
 }
 
 .footer1 {
-    width: 90%;
-    padding-bottom: 30px;
+    padding: 30px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.461);
 }
 
@@ -430,35 +461,36 @@ footer > .row {
 
 .siteLink_footer {
     display: flex;
-    align-items: flex-end;
-    margin-left: 3%;
+    align-items: center;
+    margin-left: 5%;
+    padding-top: 42px;
 }
 .siteLink_footer>li {
-    width: 180px;
+    width: 150px;   
 }
 .siteLink_footer a {
     display: block;
-    padding: 0;
-    text-align: start;
-    color: #fff;
+    text-align: center;
     font-size: 1rem;
 }
 .siteLink_footer a:hover {
     text-decoration: none;
     color: #00b8fc;
+    font-weight: 900;
     transition: all 0.2s ease;
 }
 
 .snsLink_footer {
     display: flex;
     justify-content: space-between;
-    width: 8%;
-    margin-top: -20px;
-    margin-left: 90%;
+    align-items: flex-end;
+    width: 15%;
+    margin-top: 0;
+    margin-left: 38%;
 }
 .snsLink_footer li {
-    width: 25px;
-    height: 25px;  
+    width: 30px;
+    height: 30px;
 }
 .snsLink_footer>li:nth-child(1)>a {
     display: block;
@@ -501,13 +533,12 @@ footer > .row {
 }
 
 .copyright > p {
+    padding-top: 20px;
     font-size: 1rem;
-    color: #fff;
 }
 
 .company_info > p {
     font-size: 0.8rem;
-    color: #fff;
 }
 
 .footer4 {
@@ -516,7 +547,6 @@ footer > .row {
 .nation>a {
     display: block;
     font-size: 1rem;
-    color: #fff;
 }
 .nation>a>span {
     font-size: 1.2rem;
