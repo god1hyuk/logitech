@@ -59,7 +59,17 @@ header {
 
 /* toggle button */
 .navbar-toggler {
+    width: 50px;
+    height: 50px;
     padding: 0;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+.hamburger {
+    width: 100%;
+    height: 100%;
+    margin-top: 16px;
 }
 
 .line {
